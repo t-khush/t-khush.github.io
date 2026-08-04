@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="shell article-shell">
   <header class="article-header">
-    <a class="back-link" href="{{ '/writing/' | relative_url }}">← All writing</a>
+    <a class="back-link" href="{{ '/blog/' | relative_url }}">← All posts</a>
     <p class="eyebrow"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.read_time %} · {{ page.read_time }} min read{% endif %}</p>
     <h1>{{ page.title }}</h1>
     {% if page.description %}<p class="page-deck">{{ page.description }}</p>{% endif %}
@@ -16,7 +16,6 @@ layout: default
   <div class="prose article-body">{{ content }}</div>
   <footer class="article-footer">
     <p>Thanks for reading.</p>
-    <a href="{{ '/writing/' | relative_url }}">More notes →</a>
+    <a href="{{ '/blog/' | relative_url }}">More posts →</a>
   </footer>
 </article>
-

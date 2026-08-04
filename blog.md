@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Writing
+title: Blog
 description: Notes on software systems, AI infrastructure, homelabs, and the things I learn along the way.
-permalink: /writing/
+permalink: /blog/
 ---
-<div class="shell page-shell writing-page">
+<div class="shell page-shell blog-page">
   <header class="page-header split-header">
     <div>
       <p class="eyebrow">Notes &amp; essays</p>
-      <h1>Writing</h1>
+      <h1>Blog</h1>
     </div>
     <p class="page-deck">Notes on software systems, AI infrastructure, homelabs, and the things I learn along the way.</p>
   </header>

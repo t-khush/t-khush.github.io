@@ -8,7 +8,7 @@ author:
   linkedin: khush-tated
   location: New York, NY
 
-permalink: /writing/:title/
+permalink: /blog/:title/
 future: false
 markdown: kramdown
 kramdown:
@@ -20,4 +20,3 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
-

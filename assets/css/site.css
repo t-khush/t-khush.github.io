@@ -410,6 +410,30 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .prose pre code { padding: 0; background: transparent; }
 .prose img { max-width: 100%; height: auto; border-radius: 6px; }
 
+.article-diagram {
+  width: min(1100px, calc(100vw - 32px));
+  max-width: none;
+  margin: 2em 0 2.4em;
+}
+
+.article-diagram a { display: block; }
+
+.article-diagram img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.article-diagram figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .article-shell { padding: clamp(68px, 9vw, 120px) 0; }
 .article-header { max-width: 900px; margin-bottom: 70px; }
 .article-header .eyebrow { margin-top: 38px; }

@@ -13,7 +13,7 @@ description: Khush is a software engineer in New York building AI infrastructure
         <p>This site is for me to document my journey tinkering on my personal projects and journaling my learnings. All thoughts are my own.</p>
       </div>
       <nav class="hero-links" aria-label="Introduction links">
-        <a href="{{ '/writing/' | relative_url }}">Read my writing <span aria-hidden="true">→</span></a>
+        <a href="{{ '/blog/' | relative_url }}">Read the blog <span aria-hidden="true">→</span></a>
         <a href="{{ '/about/' | relative_url }}">About me <span aria-hidden="true">→</span></a>
       </nav>
     </div>
@@ -24,9 +24,9 @@ description: Khush is a software engineer in New York building AI infrastructure
   <div class="shell section-heading">
     <div>
       <p class="eyebrow">Latest notes</p>
-      <h2>Writing</h2>
+      <h2>Blog</h2>
     </div>
-    <a class="text-link" href="{{ '/writing/' | relative_url }}">View everything <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/blog/' | relative_url }}">View all posts <span aria-hidden="true">→</span></a>
   </div>
   <div class="shell">
     {% include post-list.html posts=site.posts limit=3 %}
