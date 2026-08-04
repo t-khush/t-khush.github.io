@@ -1,0 +1,23 @@
+title: Khush Tated
+description: Notes on software, AI infrastructure, homelabs, and everything around them.
+url: https://t-khush.github.io
+baseurl: ""
+author:
+  name: Khush Tated
+  github: t-khush
+  linkedin: khush-tated
+  location: New York, NY
+
+permalink: /writing/:title/
+future: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
