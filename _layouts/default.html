@@ -17,6 +17,15 @@
         if (saved) document.documentElement.dataset.theme = saved;
       }());
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S20DGHH1SV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-S20DGHH1SV');
+    </script>
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
@@ -30,4 +39,3 @@
     <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
   </body>
 </html>
-
