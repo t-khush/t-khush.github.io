@@ -68,3 +68,5 @@ I couldn't one-shot this with the goal loop. I had to add custom integrations fo
 - The reason is that this ensures full ownership of my data rather than introducing a third party, and it also gives me more direct visibility into my finances :)
 
 I'm still tinkering with the repo, but I hope to open it up to others soon.
+
+> **Edit, August 8, 2026:** I have now open sourced Local Finance. The code and setup instructions are available in the [t-khush/local-finance repository](https://github.com/t-khush/local-finance).

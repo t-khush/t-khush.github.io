@@ -434,6 +434,26 @@ button, a { -webkit-tap-highlight-color: transparent; }
   text-align: center;
 }
 
+.article-phone-shot {
+  width: min(100%, 420px);
+  margin: 2em auto 2.4em;
+}
+
+.article-phone-shot img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.article-phone-shot figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .article-shell { padding: clamp(68px, 9vw, 120px) 0; }
 .article-header { max-width: 900px; margin-bottom: 70px; }
 .article-header .eyebrow { margin-top: 38px; }
