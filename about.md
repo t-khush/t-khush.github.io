@@ -2,8 +2,12 @@
 layout: page
 title: About
 eyebrow: A little more context
-description: I’m Khush, a software engineer in New York. I like building reliable systems—and understanding how all their pieces fit together.
+description: I’m Khush, a software engineer in the New York area. I like building reliable systems and understanding how all their pieces fit together.
 permalink: /about/
+image: /assets/images/about/khush-mountains.webp
+image_alt: Khush standing beside an alpine lake with mountains in the background
+image_width: 1376
+image_height: 1824
 ---
 ## Work
 
@@ -11,7 +15,7 @@ I’m a software engineer at **Meta**. Today, I work on the harness and orchestr
 
 Before that, I worked on Instagram Ads and identity and access management. The common thread has been large systems: how they coordinate, how they fail, and how to make them easier for people to build on.
 
-This site is where I write down what I’m learning. Anything you read here reflects my own views—not those of Meta or any past or present employer.
+This site is where I write down what I’m learning. Anything you read here reflects my own views, not those of Meta or any past or present employer.
 
 ## Outside work
 
@@ -19,5 +23,4 @@ I’m based in New York. When I’m not working, I’m usually tinkering with my
 
 ## Find me elsewhere
 
-The best places to find me are [GitHub](https://github.com/t-khush) and [LinkedIn](https://www.linkedin.com/in/khush-tated/).
-
+The best places to find me are [GitHub](https://github.com/t-khush), [LinkedIn](https://www.linkedin.com/in/khush-tated/), and [Substack](https://khushsbuilds.substack.com/).

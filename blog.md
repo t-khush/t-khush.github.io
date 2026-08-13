@@ -12,6 +12,5 @@ permalink: /blog/
     </div>
     <p class="page-deck">Notes on software systems, AI infrastructure, homelabs, and the things I learn along the way.</p>
   </header>
-  {% include post-list.html posts=site.posts %}
+  {% include post-list.html posts=site.posts show_images=true %}
 </div>
-

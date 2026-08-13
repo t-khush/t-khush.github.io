@@ -11,7 +11,7 @@
     {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f2efe8">
+    <meta name="theme-color" content="#edf5f8">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ meta_description | escape }}">
     <meta name="author" content="{{ site.author.name | escape }}">
@@ -81,6 +81,7 @@
     <a class="skip-link" href="#content">Skip to content</a>
     {% include header.html %}
     <main id="content">{{ content }}</main>
+    {% include newsletter.html %}
     {% include footer.html %}
     <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ asset_version }}"></script>
   </body>

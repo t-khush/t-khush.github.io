@@ -5,7 +5,7 @@
 {% endif %}
 <div class="post-list">
   {% for post in visible_posts %}
-    <article class="post-row">
+    <article class="post-row{% if include.show_images and post.image %} post-row-with-image{% endif %}">
       <div class="post-date">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
       </div>
@@ -18,6 +18,17 @@
           </div>
         {% endif %}
       </div>
+      {% if include.show_images and post.image %}
+        <div class="post-image">
+          <img
+            src="{{ post.image | relative_url }}"
+            alt="{{ post.image_alt | default: post.title | escape }}"
+            {% if post.image_width %}width="{{ post.image_width }}"{% endif %}
+            {% if post.image_height %}height="{{ post.image_height }}"{% endif %}
+            loading="lazy"
+            decoding="async">
+        </div>
+      {% endif %}
       <span class="post-arrow" aria-hidden="true">↗</span>
     </article>
   {% else %}

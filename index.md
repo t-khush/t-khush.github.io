@@ -5,18 +5,36 @@ description: Khush is a software engineer in New York building AI infrastructure
 ---
 <section class="hero">
   <div class="shell">
-    <div class="hero-copy">
-      <p class="eyebrow">Last deployed · {{ site.time | date: "%b %-d, %Y" }}</p>
-      <h1>Hi, I’m Khush.<br>I build infrastructure for AI products.</h1>
-      <div class="hero-deck">
-        <p>Software Engineer @ Meta. Pickleball, film, and Thai food enthusiast.</p>
-        <p>This site is for me to document my journey tinkering on my personal projects and journaling my learnings. All thoughts are my own.</p>
+    <section class="now-card now-card-large" aria-labelledby="intro-title">
+      <div class="now-card-header">
+        <p class="eyebrow">Last deployed · {{ site.time | date: "%b %-d, %Y" }}</p>
+        <span class="status-dot" aria-hidden="true"></span>
       </div>
-      <nav class="hero-links" aria-label="Introduction links">
+      <h1 id="intro-title" class="now-card-title">Hi! I’m Khush.</h1>
+      <dl>
+        <div>
+          <dt>Career</dt>
+          <dd>Product + Infra @ Meta AI</dd>
+        </div>
+        <div>
+          <dt>Hobbies</dt>
+          <dd>Pickleball, film &amp; Thai food</dd>
+        </div>
+        <div>
+          <dt>Tinkering</dt>
+          <dd>Agentic systems, homelabs &amp; hardware</dd>
+        </div>
+        <div>
+          <dt>Based in</dt>
+          <dd>NJ / NYC</dd>
+        </div>
+      </dl>
+      <nav class="now-card-links" aria-label="Introduction links">
         <a href="{{ '/blog/' | relative_url }}">Read the blog <span aria-hidden="true">→</span></a>
-        <a href="{{ '/about/' | relative_url }}">About me <span aria-hidden="true">→</span></a>
+        <a href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">→</span></a>
       </nav>
-    </div>
+      <span class="now-card-mark" aria-hidden="true">KT</span>
+    </section>
   </div>
 </section>
 
@@ -29,6 +47,6 @@ description: Khush is a software engineer in New York building AI infrastructure
     <a class="text-link" href="{{ '/blog/' | relative_url }}">View all posts <span aria-hidden="true">→</span></a>
   </div>
   <div class="shell">
-    {% include post-list.html posts=site.posts limit=3 %}
+    {% include post-list.html posts=site.posts limit=3 show_images=true %}
   </div>
 </section>
