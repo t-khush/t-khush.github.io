@@ -1,14 +1,13 @@
 ---
 layout: null
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% assign pages = site.pages | where_exp: "item", "item.sitemap != false" %}
-  {% for item in pages %}{% if item.url contains '.xml' or item.url contains '.txt' %}{% else %}
-  <url><loc>{{ item.url | absolute_url }}</loc></url>
-  {% endif %}{% endfor %}
-  {% for post in site.posts %}
+{% for page in site.pages %}{% unless page.url contains ".css" or page.url contains ".xml" or page.url contains ".txt" or page.url == "/404.html" or page.sitemap == false %}
+  <url><loc>{{ page.url | absolute_url }}</loc>{% if page.last_modified_at %}<lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>{% endif %}</url>
+{% endunless %}{% endfor %}
+{% for post in site.posts %}
   <url><loc>{{ post.url | absolute_url }}</loc><lastmod>{{ post.date | date_to_xmlschema }}</lastmod></url>
-  {% endfor %}
+{% endfor %}
 </urlset>
-
