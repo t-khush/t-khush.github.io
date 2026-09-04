@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-08-13-what-i-learned-building-and-deprecating-menlo-labs.md",
+                "file": "2026-09-03-new-projects-and-onwards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-13-what-i-learned-building-and-deprecating-menlo-labs"
+              "title": "2026-09-03-new-projects-and-onwards"
             }
           }
         ]
@@ -187,8 +187,13 @@
   },
   "active": "dae2738b57a3930e",
   "lastOpenFiles": [
-    "2026-08-08-tracking-expenses-through-telegram.md",
     "2026-08-13-what-i-learned-building-and-deprecating-menlo-labs.md",
+    "2026-09-03-new-projects-and-onwards.md",
+    "{{.md",
+    "Screenshot 2026-09-03 at 10.23.39 PM.png",
+    "Screenshot 2026-09-03 at 10.22.34 PM.png",
+    "Pasted image 20260903220956.png",
+    "2026-08-08-tracking-expenses-through-telegram.md",
     "assets/Screenshot 2026-08-13 at 10.51.09 AM.png",
     "assets/Screenshot 2026-08-13 at 9.38.35 AM 1.png",
     "assets/Screenshot 2026-08-13 at 9.38.35 AM.png",
@@ -198,7 +203,6 @@
     "assets",
     "2026-08-04-hello-internet.md",
     "2026-08-04-vibe-coding-local-finance-tool.md",
-    "{{.md",
     "Pasted image 20260804135233.png",
     "paper trading project.md"
   ]
