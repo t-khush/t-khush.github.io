@@ -12,6 +12,7 @@ tags:
   - homelab
   - life
 read_time: 3
+published: false
 ---
 
 Hi!
