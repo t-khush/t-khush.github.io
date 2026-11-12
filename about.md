@@ -23,4 +23,4 @@ I’m based in New York. When I’m not working, I’m usually tinkering with my
 
 ## Find me elsewhere
 
-The best places to find me are [GitHub](https://github.com/t-khush), [LinkedIn](https://www.linkedin.com/in/khush-tated/), and [Substack](https://khushsbuilds.substack.com/).
+The best places to find me are [GitHub](https://github.com/t-khush) and [LinkedIn](https://www.linkedin.com/in/khush-tated/).
